@@ -12,6 +12,8 @@ if (n1 > n2) {
     console.log(n2, " è maggiore di ", n1);
 }
 
+/* OPPURE  console.log(Math.max(n1,n2))
+
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
@@ -148,7 +150,7 @@ if (risultato9 > 0) {
 let val = 4;
 if (val < 10) {
     console.log("Meno di 10");
-} else if (val < 5) {
+} else if (val <= 5) {
     console.log("Meno di 5");
 } else if (val >= 10) {
     console.log("Uguale a 10 o maggiore");
