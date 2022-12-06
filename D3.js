@@ -35,7 +35,7 @@ let n4 = 10;
 if (n4 % 5 === 0) {
     console.log("Il numero inserito è divisibile per 5");
 } else {
-    console.log("il risultato inserito non è divisibile per 5");
+    console.log("Il numero inserito non è divisibile per 5");
 }
 
 /* ESERCIZIO 4
@@ -44,17 +44,10 @@ if (n4 % 5 === 0) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let n5 = 3;
-let n6 = 5;
-if (n5 === 8 || n6 === 8) {
-    console.log("Un numero inserito è uguale a 8");
-} else {
-    console.log("Nessun numero inserito è uguale a 8");
-}
-if (n5 + n6 === 8 || n5 - n6 === 8) {
-    console.log("La somma/sottrazione dei due numeri è 8");
-} else {
-    console.log("La somma/sottrazione dei due numeri è diversa 8");
+let n5 = 10;
+let n6 = 2;
+if (n5 == 8 || n6 == 8 || n5 + n6 == 8 || n5 - n6 == 8 || n6 - n5 == 8) {
+    console.log("Verificato!!");
 }
 
 /* ESERCIZIO 5
@@ -109,7 +102,7 @@ console.log(numeri);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let x = "Adina";
+let x = 8;
 if (typeof x === typeof "number") {
     console.log("Il valore inserito non è un numero");
 } else {
