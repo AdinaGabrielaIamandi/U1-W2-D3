@@ -31,9 +31,9 @@ if (n3 !== 5) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let n4 = 9;
+let n4 = 10;
 let risultato4 = n4 % 5;
-if (risultato4 === parseInt) {
+if (n4 % 5 === 0) {
     console.log("Il numero inserito è divisibile per 5");
 } else {
     console.log("il risultato inserito non è divisibile per 5");
@@ -123,6 +123,14 @@ if (typeof x === typeof "number") {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let n9 = 8;
+let risultato9 = 7 % 2;
+if (risultato9 > 0) {
+    console.log("Numero dispari");
+} else {
+    console.log("Numero pari");
+}
+
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
   let val = 7
@@ -137,6 +145,15 @@ if (typeof x === typeof "number") {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let val = 4;
+if (val < 10) {
+    console.log("Meno di 10");
+} else if (val < 5) {
+    console.log("Meno di 5");
+} else if (val >= 10) {
+    console.log("Uguale a 10 o maggiore");
+}
+
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
@@ -149,11 +166,17 @@ const me = {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+me.city = "Toronto";
+console.log(me);
+
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+delete me.lastName;
+console.log(me);
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
@@ -161,14 +184,35 @@ const me = {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+me.skills[2] = null;
+console.log(me.skills);
+
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const arrayDiNumeri = [undefined];
+console.log(arrayDiNumeri);
+arrayDiNumeri[0] = 1;
+arrayDiNumeri[1] = 2;
+arrayDiNumeri[2] = 3;
+arrayDiNumeri[3] = 4;
+arrayDiNumeri[4] = 5;
+arrayDiNumeri[5] = 6;
+arrayDiNumeri[6] = 7;
+arrayDiNumeri[7] = 8;
+arrayDiNumeri[8] = 9;
+arrayDiNumeri[9] = 10;
+
+console.log(arrayDiNumeri);
+
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+arrayDiNumeri[9] = 100;
+console.log(arrayDiNumeri);
