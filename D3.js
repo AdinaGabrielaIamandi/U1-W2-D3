@@ -58,7 +58,7 @@ if (n5 == 8 || n6 == 8 || n5 + n6 == 8 || n5 - n6 == 8 || n6 - n5 == 8) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let totalShoppingCart = 190;
+let totalShoppingCart = 50;
 const spedizione = 10;
 if (totalShoppingCart > 50) {
     console.log("Hai diritto alla spedizione gratuita!!");
@@ -74,10 +74,11 @@ if (totalShoppingCart > 50) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let totaleScontato = (totalShoppingCart / 100) * 20;
+let black = (totalShoppingCart / 100) * 20;
+let totaleScontato = totalShoppingCart - black;
 if (totaleScontato > 50) {
     console.log("Hai diritto alla spedizione gratuita!!");
-    console.log("Totale da pagare: ", totalShoppingCart);
+    console.log("Totale da pagare: ", totaleScontato);
 } else {
     console.log("Non hai diritto alla spedizione gratuita!");
     console.log("Totale da pagare: ", totaleScontato + spedizione);
@@ -91,11 +92,19 @@ if (totaleScontato > 50) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let numeri = [20, 78, 5];
+/*let numeri = [20, 78, 5];
 numeri.sort(function(a, b) {
     return a - b;
 });
-console.log(numeri);
+console.log(numeri);*/
+
+/*a=2
+b=4
+c=6
+if {
+
+}
+
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
@@ -138,10 +147,10 @@ if (risultato9 > 0) {
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let val = 4;
-if (val < 10) {
-    console.log("Meno di 10");
-} else if (val <= 5) {
+if (val < 5) {
     console.log("Meno di 5");
+} else if (val < 10) {
+    console.log("Meno di 10");
 } else if (val >= 10) {
     console.log("Uguale a 10 o maggiore");
 }
