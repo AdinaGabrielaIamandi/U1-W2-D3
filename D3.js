@@ -66,12 +66,14 @@ if (n5 + n6 === 8 || n5 - n6 === 8) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let totalShoppingCart = 190;
+let totalShoppingCart = 40;
 const spedizione = 10;
 if (totalShoppingCart > 50) {
     console.log("Hai diritto alla spedizione gratuita!!");
+    console.log("Totale da pagare: ", totalShoppingCart);
 } else {
-    console.log("Il costo della spedizione ");
+    console.log("Non hai diritto alla spedizione gratuita!");
+    console.log("Totale da pagare: ", totalShoppingCart + spedizione);
 }
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
