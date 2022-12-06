@@ -184,7 +184,7 @@ console.log(me);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-me.skills[2] = null;
+delete me.skills[2];
 console.log(me.skills);
 
 /* ESERCIZIO 14
