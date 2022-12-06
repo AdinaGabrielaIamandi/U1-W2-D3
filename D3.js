@@ -18,6 +18,13 @@ if (n1 > n2) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let n3 = 4;
+if (n3 !== 5) {
+    console.log("Il numero inserito è diverso da 5");
+} else {
+    console.log("Il numero inserito è uguale a 5");
+}
+
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
