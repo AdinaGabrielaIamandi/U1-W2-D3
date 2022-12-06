@@ -4,6 +4,14 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let n1 = 10;
+let n2 = 12;
+if (n1 > n2) {
+    console.log(n1, " è maggiore di ", n2);
+} else {
+    console.log(n2, " è maggiore di ", n1);
+}
+
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
@@ -76,10 +84,10 @@
 */
 
 const me = {
-  name: 'John',
-  lastName: 'Doe',
-  skills: ['javascript', 'html', 'css'],
-}
+    name: "John",
+    lastName: "Doe",
+    skills: ["javascript", "html", "css"],
+};
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
