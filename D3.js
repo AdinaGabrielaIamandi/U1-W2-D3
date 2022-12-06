@@ -99,9 +99,11 @@ if (totaleScontato > 50) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let x = 20;
-let y = 78;
-let z = 5;
+let numeri = [20, 78, 5];
+numeri.sort(function(a, b) {
+    return a - b;
+});
+console.log(numeri);
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
