@@ -45,7 +45,18 @@ if (risultato4 === parseInt) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let n5;
+let n5 = 3;
+let n6 = 5;
+if (n5 === 8 || n6 === 8) {
+    console.log("Un numero inserito è uguale a 8");
+} else {
+    console.log("Nessun numero inserito è uguale a 8");
+}
+if (n5 + n6 === 8 || n5 - n6 === 8) {
+    console.log("La somma/sottrazione dei due numeri è 8");
+} else {
+    console.log("La somma/sottrazione dei due numeri è diversa 8");
+}
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
@@ -55,6 +66,13 @@ let n5;
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let totalShoppingCart = 190;
+const spedizione = 10;
+if (totalShoppingCart > 50) {
+    console.log("Hai diritto alla spedizione gratuita!!");
+} else {
+    console.log("Il costo della spedizione ");
+}
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
