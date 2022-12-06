@@ -110,6 +110,12 @@ console.log(numeri);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let x = "Adina";
+if (typeof x === typeof "number") {
+    console.log("Il valore inserito non è un numero");
+} else {
+    console.log("Il valore inserito è un numero");
+}
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
