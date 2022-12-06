@@ -22,9 +22,7 @@ if (n1 > n2) {
 
 let n3 = 4;
 if (n3 !== 5) {
-    console.log("Il numero inserito è diverso da 5");
-} else {
-    console.log("Il numero inserito è uguale a 5");
+    console.log("not equal");
 }
 
 /* ESERCIZIO 3
@@ -34,7 +32,6 @@ if (n3 !== 5) {
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let n4 = 10;
-let risultato4 = n4 % 5;
 if (n4 % 5 === 0) {
     console.log("Il numero inserito è divisibile per 5");
 } else {
